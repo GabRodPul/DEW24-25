@@ -7,42 +7,49 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <title>Activity 7: Minigame. Stop urbanization</title>
   </head>
   <body>
-    <h1>Activity 7: Minigame. Stop urbanization</h1>
-    <p><strong>setInterval, setTimeout, onClick. Create a game:</strong></p>
-    <h2>Minigame Stop urbanization.</h2>
-    <h3>Version A</h3>
-    <p>
-      Develop a simple game that consists on the appearance of building bricks over an image of a natural
-      space, when you click on the bricks they disappear, but every second a new brick appears.
-    </p>
-    <h3>Version B</h3>
-    <p>
-      Develop a simple game that consists on the appearance of "work posters" over an image of a natural space, when you click on the posters they disappear, but if it takes too long the posters change to buildings.
-    </p>
-
-    <p>
-      To do it:
-      <ul>
-        <li>
-          Create elements (construction posters) every amount of time (constructionTime) and place them
-          randomly within the play space.
-        </li>
-        <li>By clicking on the posters they are removed</li>
-        <li>
-          If after X seconds (postersLifetime) the poster has not been removed (clicked), it changes to
-          the image of a building.
-        </li>
-        <li>
-          Improvements: progressively change the creation time of works (constructionTime) and the
-          duration of posters (postersLifetime).
-        </li>
-      </ul>
-    </p>
+    <div id="exercise-instructions">
+      <h1>Activity 7: Minigame. Stop urbanization</h1>
+      <p><strong>setInterval, setTimeout, onClick. Create a game:</strong></p>
+      <h2>Minigame Stop urbanization.</h2>
+      <h3>Version A</h3>
+      <p>
+        Develop a simple game that consists on the appearance of building bricks 
+        over an image of a natural space, when you click on the bricks they 
+        disappear, but every second a new brick appears.
+      </p>
+      <h3>Version B</h3>
+      <p>
+        Develop a simple game that consists on the appearance of "work posters" 
+        over an image of a natural space, when you click on the posters they 
+        disappear, but if it takes too long the posters change to buildings.
+      </p>
+  
+      <p>
+        To do it:
+        <ul>
+          <li>
+            Create elements (construction posters) every amount of time 
+            (constructionTime) and place them randomly within the play space.
+          </li>
+          <li>By clicking on the posters they are removed</li>
+          <li>
+            If after X seconds (postersLifetime) the poster has not been removed 
+            (clicked), it changes to the image of a building.
+          </li>
+          <li>
+            Improvements: progressively change the creation time of works 
+            (constructionTime) and the duration of posters (postersLifetime).
+          </li>
+        </ul>
+      </p>  
+    </div>
     <div id="table-container"></div>
+    <script src="main.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

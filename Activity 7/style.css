@@ -1,0 +1,20 @@
+:root {
+    --images-background: url("images/hinamifirgas.jpeg");
+}
+
+#table-container {
+    background-image: var(--images-background);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#table-container * {
+    /* display: inline-block; */
+}
+
+.cell__button {
+    width: 100%;
+    color:      #ff0000;
+    background: rgba(0,0,0,0);
+    border:     none;
+}
